@@ -1,6 +1,6 @@
 Package.describe({
   name: 'joshowens:mongo-explainer',
-  version: '0.1.1',
+  version: '0.1.2',
   // Brief, one-line summary of the package.
   summary: 'Learn which mongo queries need indexed.',
   // URL to the Git repository containing the source code for this package.
