@@ -11,9 +11,7 @@ MongoInternals.Connection.prototype.find = function(collectionName, selector, mo
   try {
     let collection = this.rawCollection(collectionName);
     let query, explainSelector = "";
-    console.log(selector, 'selector');
     let cleanedSelector = looper(selector);
-    console.log(cleanedSelector, 'cleanedSelector');
     if (options) {
       query = `${collectionName}.find(${JSON.stringify(cleanedSelector)}, ${JSON.stringify(options)})`;
       explainSelector = `${cleanedSelector}, ${options}`;
