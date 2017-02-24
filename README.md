@@ -4,7 +4,7 @@ Mongo Explainer is a simple Meteor package that runs in development mode to watc
 
 ## Why build Mongo Explainer?
 
-Kadira is going away and I needed a quick way to find out which queries are slow and which ones aren't.
+I needed a quick way to find out which queries are slow and which ones aren't.
 
 ## Installing Mongo Explainer
 
